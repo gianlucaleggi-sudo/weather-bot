@@ -6,7 +6,7 @@ locale.setlocale(locale.LC_TIME, 'it_IT.UTF-8')
 
 # ---------------- GEO ----------------
 def geocoding(city):
-    api_k = 'd1b1b4ae2eedc1b3c69fd2af36366ce5'
+    api_k = '*******************************************'
     url = 'http://api.openweathermap.org/geo/1.0/direct?'
 
     city = city.strip() + ',IT'

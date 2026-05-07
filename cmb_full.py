@@ -26,7 +26,7 @@ class OW_daily():
         self.lon = lon
 
     def OW_request(self):
-        api_k = 'd847594e63f934fc9c50dd4545251534'
+        api_k = '*********************************************'
         url = 'http://api.openweathermap.org/data/3.0/onecall?'
         unit = 'metric'
         lan = 'it'
